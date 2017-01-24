@@ -33,7 +33,7 @@ footer .copy { padding:10px 40px; }
   border: 1px solid rgba(86,61,124,.2);
 }
 */
-hr { margin-top: 40px; margin-bottom: 40px; }
+hr { margin-top: 20px; margin-bottom: 20px; }
 
 
 
@@ -47,11 +47,16 @@ hr { margin-top: 40px; margin-bottom: 40px; }
 	padding:3px 0 0 0;
 	border: 1px solid transparent;
 }
+.navbar .container { padding:3px; }
 .navbar-default {
 	background-color: #ffffff;
 	border-color: #ffffff;
 	border-bottom-color: #ffaa00;
 }
+.navbar-logo { height:35px; }
+.navbar-brand { float:none; display:inline-block; margin:0 !important; padding:0 !important; height:35px; }
+.navbar-brand img { margin:0; padding:0; height:35px; width:auto; }
+.navbar-description { display:inline-block; margin:0 15px; padding:0; color:#aaaaaa; font-size:18px; font-style:italic; }
 
 
 
@@ -104,5 +109,3 @@ a:hover.no-line { text-decoration:none; }
 
 .btn-donate {}
 .btn-donate:active { background-color:lime; }
-
-
